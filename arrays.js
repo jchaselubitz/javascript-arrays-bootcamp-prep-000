@@ -16,3 +16,15 @@ function destructivelyAddElementToBeginningOfArray(someArray, newElement) {
   someArray.unshift(newElement)
   return someArray
 }
+
+function addElementToEndOfArray(someArray, newElement) {
+  var newArray = []
+  newArray.push(someArray)
+  newArray.push(newElement)
+  return newArray
+}
+
+function destructivelyAddElementToEndOfArray(someArray, newElement) {
+  someArray.push(newElement)
+  return someArray
+}
