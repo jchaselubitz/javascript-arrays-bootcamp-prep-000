@@ -36,3 +36,9 @@ function accessElementInArray(someArray,index){
 function destructivelyRemoveElementFromBeginningOfArray (someArray) {
   return someArray.shift()
 }
+
+function removeElementFromBeginningOfArray(someArray) {
+  var newNewArray = []
+  newNewArray = someArray.slice(1)
+  return newNewArray
+}
