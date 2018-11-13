@@ -28,3 +28,8 @@ function destructivelyAddElementToEndOfArray(someArray, newElement) {
   someArray.push(newElement)
   return someArray
 }
+
+function accessElementInArray(someArray,index){
+  return someArray,[index]
+}
+
