@@ -5,7 +5,7 @@ var chocolateBars = [
   "skittles"
 ]
 
-console.log(chocolateBars, [2])
+console.log([2], chocolateBars)
 
 function addElementToBeginningOfArray(someArray, newElement) {
   var newArray = someArray
@@ -18,4 +18,3 @@ function destructivelyAddElementToBeginningOfArray(someArray, newElement) {
   someArray.unshift(newElement)
   return someArray
 }
-
