@@ -5,11 +5,9 @@ var chocolateBars = [
   "skittles"
 ]
 
-console.dir(chocolateBars)
 
-/*
 function addElementToBeginningOfArray(someArray, newElement) {
-  var newArray = someArray
+  newArray.push(someArray)
   newArray.unshift(newElement)
   return newArray
 }
@@ -19,4 +17,3 @@ function destructivelyAddElementToBeginningOfArray(someArray, newElement) {
   someArray.unshift(newElement)
   return someArray
 }
-*/
