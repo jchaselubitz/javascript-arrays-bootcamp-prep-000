@@ -5,7 +5,7 @@ var chocolateBars = [
   "skittles"
 ]
 
-console.log([2], chocolateBars)
+console.log(chocolateBars[2])
 
 function addElementToBeginningOfArray(someArray, newElement) {
   var newArray = someArray
