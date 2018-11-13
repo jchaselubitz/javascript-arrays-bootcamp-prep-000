@@ -46,3 +46,9 @@ function removeElementFromBeginningOfArray(someArray) {
 function destructivelyRemoveElementFromEndOfArray(someArray) {
   return someArray.pop()
 }
+
+function removeElementFromEndOfArray(someArray) {
+  var new2Array = []
+  new2Array = someArray.slice(0, someArray.length - 1)
+  return new2Array
+}
