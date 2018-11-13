@@ -32,4 +32,3 @@ function destructivelyAddElementToEndOfArray(someArray, newElement) {
 function accessElementInArray(someArray,index){
   return someArray,[index]
 }
-
