@@ -7,13 +7,14 @@ var chocolateBars = [
 
 console.log(chocolateBars, 2)
 
-/*
 function addElementToBeginningOfArray(someArray, newElement) {
-  someArray.unshift(newElement)
+  var newArray = someArray
+  newArray.unshift(newElement) 
+  return newArray
 }
-//addElementToBeginningOfArray(chocolateBars, mandams)
-//console.log(chocolateBars)
 
 function destructivelyAddElementToBeginningOfArray(someArray, newElement) {
   someArray.unshift(newElement)
+  return someArray
 }
+
